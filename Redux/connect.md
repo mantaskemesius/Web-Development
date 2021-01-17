@@ -43,9 +43,9 @@ Best place to do this operations is in memoized selector functions to ensure tha
 
 Returned function will be used as the final mapStateToProps function for a particular component instance. That means - It is called every time the store state changes. Parent function will be initialized on component mount. This allow to do per-instance memoization.
 
-PR: https://github.com/reduxjs/react-redux/pull/279/files
+[PR](https://github.com/reduxjs/react-redux/pull/279/files)
 
-* When is it useful? Briefly explain good (or bad) usage of Factory.
+* When is it useful? Briefly explain good (or bad) usage of Factory. [Resource](https://redux.js.org/recipes/computing-derived-data#computing-derived-data)
 
 ```javascript
 // ---------- COMPONENT WHICH USES CONTAINER ----------
